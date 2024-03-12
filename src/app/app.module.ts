@@ -8,6 +8,10 @@ import { NavbarComponent } from './layouts/navbar/navbar.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ProjectsComponent } from './projects/projects.component';
 
+import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
+import { NoopAnimationsModule } from "@angular/platform-browser/animations";
+import { fadeInOutAnimation } from "./fade-in-out.animation";
+
 
 @NgModule({
   declarations: [
@@ -19,7 +23,9 @@ import { ProjectsComponent } from './projects/projects.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    BrowserAnimationsModule,
+    NoopAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
