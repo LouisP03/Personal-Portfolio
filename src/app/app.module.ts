@@ -7,7 +7,6 @@ import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './layouts/navbar/navbar.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ProjectsComponent } from './projects/projects.component';
-
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 
 
