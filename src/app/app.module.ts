@@ -9,8 +9,6 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ProjectsComponent } from './projects/projects.component';
 
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
-import { NoopAnimationsModule } from "@angular/platform-browser/animations";
-import { fadeInOutAnimation } from "./fade-in-out.animation";
 
 
 @NgModule({
@@ -18,14 +16,13 @@ import { fadeInOutAnimation } from "./fade-in-out.animation";
     AppComponent,
     HomeComponent,
     NavbarComponent,
-    ProjectsComponent
+    ProjectsComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgbModule,
     BrowserAnimationsModule,
-    NoopAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

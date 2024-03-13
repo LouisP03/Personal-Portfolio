@@ -4,6 +4,11 @@
 /*  font-style: normal;*/
 /*}*/
 
+body {
+  opacity: 0;
+  transition: opacity 1s;
+}
+
 .container {
   margin-top: 4rem;
 }
@@ -31,3 +36,20 @@ h1,h2,h3 {
   font-family: 'Quattocento Sans', sans-serif;
   font-weight: 200;
 }
+
+/*body {*/
+  /*animation: fadeInAnimation ease 3s;*/
+  /*animation-iteration-count: 1;*/
+  /*animation-fill-mode: forwards;*/
+
+
+/*}*/
+
+/*@keyframes fadeInAnimation {*/
+/*  0% {*/
+/*    opacity: 0;*/
+/*  }*/
+/*  100% {*/
+/*    opacity: 1;*/
+/*  }*/
+/*}*/
