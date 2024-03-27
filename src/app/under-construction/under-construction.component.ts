@@ -2,9 +2,9 @@ import { Component } from '@angular/core';
 import {animate, state, style, transition, trigger} from "@angular/animations";
 
 @Component({
-  selector: 'app-footer',
-  templateUrl: './footer.component.html',
-  styleUrl: './footer.component.css',
+  selector: 'app-under-construction',
+  templateUrl: './under-construction.component.html',
+  styleUrl: './under-construction.component.css',
   animations: [
     trigger('fadeAnimation', [
       state('in', style({opacity: 1})),
@@ -18,6 +18,6 @@ import {animate, state, style, transition, trigger} from "@angular/animations";
     ])
   ],
 })
-export class FooterComponent {
+export class UnderConstructionComponent {
 
 }

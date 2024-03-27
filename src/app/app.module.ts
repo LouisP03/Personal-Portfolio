@@ -9,6 +9,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ProjectsComponent } from './projects/projects.component';
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { FooterComponent } from './layouts/footer/footer.component';
+import { UnderConstructionComponent } from './under-construction/under-construction.component';
 
 
 @NgModule({
@@ -18,6 +19,7 @@ import { FooterComponent } from './layouts/footer/footer.component';
     NavbarComponent,
     ProjectsComponent,
     FooterComponent,
+    UnderConstructionComponent,
   ],
   imports: [
     BrowserModule,
